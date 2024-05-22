@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>10 min Home Workout</title>
+    <link rel="stylesheet" href="workout.css" />
+  </head>
+
+  <body>
+    <audio hidden="true" id="start" src="./Sound/start.wav"></audio>
+    <audio hidden="true" id="finish" src="./Sound/finish.wav"></audio>
+    <div class="main">
+      <div class="container">        
+        <h1>10 Minute Home Workout</h1>
+        <div class="Exercise-panel">
+          <div class="exercise-img">
+            <img height="400" src="" alt="Exercise picture" />
+          </div>
+          <div class="Exercise-info">
+            <div class="hidden-div">
+              <div class="timer">30</div>        
+              <!-- <div class="timer">30</div> -->
+            </div>
+            <div class="hidden-div">
+              <h2 class="Exercise">Knee Up</h2>
+              <!-- <h2 class="Exercise">Knee Up</h2> -->
+            </div>
+          </div>
+          <button class="start">START</button>
+        </div>
+      </div>
+    </div>
+
+    <!--* Gsap Cdn -->
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="workout.js"></script>
+  </body>
+</html>
