@@ -5,6 +5,11 @@
     font-family: "Gilroy";
 }
 
+@font-face {
+    font-family: "Gilroy";
+    src: url(./fonts/Gilroy-Medium_eHDK2RllDd.ttf);
+}
+
 html,
 body {
     height: 100%;
