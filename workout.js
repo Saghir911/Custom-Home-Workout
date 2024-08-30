@@ -18,17 +18,17 @@ let Exercises = {
     img: "./Exercise Image/Jumping Jacks.webp",
     time: 30,
   },
-  Pushups: {
-    name: "Pushups",
-    img: "./Exercise Image/pushups.webp",
-    time: 60,
-  },
-  Squats: {
+  "Squats": {
     name: "Squats",
     img: "./Exercise Image/Squats.webp",
     time: 60,
   },
-  Lunges: {
+  "Pushups": {
+    name: "Pushups",
+    img: "./Exercise Image/pushups.webp",
+    time: 60,
+  },
+  "Lunges": {
     name: "Lunges",
     img: "./Exercise Image/Lunges.webp",
     time: 60,
@@ -93,7 +93,7 @@ let timerInterval;
 
 function updateExercise() {
   const exercise = Object.values(Exercises)[currentExercise];
-  
+
   img.src = exercise.img;
   exerciseName.innerHTML = exercise.name;
   timer.innerHTML = exercise.time;
